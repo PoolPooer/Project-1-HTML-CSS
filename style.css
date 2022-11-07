@@ -26,6 +26,9 @@
 
     /* images */
     --bg-cover : url('./assets/bgimg1.png');
+    --bg-image1: url('./assets/img1.png');
+    --bg-image2: url('./assets/img2.png');
+    --bg-image3: url('./assets/img3.png');
 }
 
 * > * {
@@ -386,4 +389,47 @@ ul{
 #site-main .banner-area .banner-title{
     height: 95vh;
     padding-top: 16rem;
+}
+
+/*About Us */
+#site-main .about-area > .grid{
+    column-gap: 10em;
+}
+
+#site-main .about-area .grid-images{
+    display: grid;
+    grid-template-columns: repeat(16, minmax(10px, 1fr));
+    grid-template-rows: repeat(8, minmax(100px, 1fr));
+}
+
+#site-main .about-area .grid-images .item-one{
+    background: var(--text-gray);
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background: var(--bg-image1) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    filter: blur(1px);
+}
+
+#site-main .about-area .grid-images .item-two{
+    background: var(--text-gray);
+    grid-column-start: 9;
+    grid-column-end: 16;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background: var(--bg-image2) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    filter: blur(1px);
+}
+
+#site-main .about-area .grid-images .item-three{
+    grid-area: 3 / 4 / 8 / 14;
+    background: var(--bg-image3) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    z-index: 99;
 }
