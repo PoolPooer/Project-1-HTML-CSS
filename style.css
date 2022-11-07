@@ -29,6 +29,12 @@
     --bg-image1: url('./assets/img1.png');
     --bg-image2: url('./assets/img2.png');
     --bg-image3: url('./assets/img3.png');
+    --bg-image4: url('./assets/img4.png');
+    --bg-image5: url('./assets/img5.png');
+    --bg-image6: url('./assets/img6.png');
+    --bg-image7: url('./assets/img7.png');
+    --bg-image8: url('./assets/img8.png');
+
 }
 
 * > * {
