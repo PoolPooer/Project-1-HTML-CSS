@@ -433,3 +433,8 @@ ul{
     border-radius: 8px;
     z-index: 99;
 }
+
+/*Bio Area */
+#site-main .bio-area{
+    padding: 3em 0;
+}
