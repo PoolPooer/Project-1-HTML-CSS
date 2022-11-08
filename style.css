@@ -441,3 +441,11 @@ ul{
 }
 
 /*Merch Area */
+#site-main .merch-area .images-flex .flex-item{
+    width: 360px;
+    margin-bottom: 50px;
+}
+
+#site-main .merch-area .images-flex .flex-item img{
+    border-radius: 10px;
+}
