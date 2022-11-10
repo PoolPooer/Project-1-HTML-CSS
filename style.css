@@ -37,9 +37,9 @@ header{
   width: 100%;
   top: 0;
   left: 0;
-  background-color: white;
-  color: white;
+  color:#f8f9fa;
   padding: 1em;
+  z-index: 999;
 }
 
 * > * {
