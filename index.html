@@ -7,7 +7,7 @@
     <title>Deaf Monkey</title>
 
     <!-- animations -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- particles codepen -->
     <link rel="stylesheet" href="./library/particles.css">
     <!-- icons -->
@@ -18,9 +18,7 @@
 <body>
 
     <header class="container-fluid">
-      <a name="top"></a>
         <nav id="nav"  class="flex">
-
             <div class="nav-brand">
                 <a href="#top" class="text-dark text-lg font-bold font-economica">deafMONKEY</a>
             </div>
@@ -30,6 +28,8 @@
                     <i class="bi bi-filter-right"></i>
                 </button>
             </div>
+
+
 
             <div class="collapse flex-grow bg-gradient-white">
                 <ul class="flex font-quicksand">
@@ -52,6 +52,7 @@
             </div>
         </nav>
     </header>
+    <a name="top"></a>
 
     <!-- Main section -->
     <main id="site-main">
@@ -116,12 +117,12 @@
             <div class="container mx-auto banner-title">
                 <div class="title">
                     <div class="py-2 branding text-dark text-lg sm-text-xl font-bold">
-                        <span class="d-block animate__animated animate__fadeInUp animate__faster">Waterford Based</span>
-                        <span class="d-block animate__animated animate__fadeInUp animate__fast">Alternative Indie Rock</span>
+                        <span class="d-block" data-aos="fade-up"> Waterford Based</span>
+                        <span class="d-block" data-aos="fade-up" data-aos-delay="100">Alternative Indie Rock</span>
                     </div>
                     <div class="py-5">
-                        <p class="text-gray animate__animated animate__fadeInDown">Formed in Waterford in 2020, Deaf Monkey play a brand </p>
-                        <p class="text-gray animate__animated animate__fadeInDown">of high energy punchy guitar driven indie rock/pop.</p>
+                        <p class="text-gray" data-aos="fade-down" data-aos-delay="500">Formed in Waterford in 2020, Deaf Monkey play a brand </p>
+                        <p class="text-gray" data-aos="fade-down" data-aos-delay="600">of high energy punchy guitar driven indie rock/pop.</p>
                     </div>
                 </div>
             </div>
@@ -132,18 +133,18 @@
         <section class="container mx-auto about-area">
           <div class="grid cols-1 lg-cols-2 text-center md-text-left">
             <div class="grid-images">
-              <div class="item-one animate__animated animate__fadeInLeft "></div>
-              <div class="item-two animate__animated animate__fadeInRight"></div>
-              <div class="item-three animate__animated animate__fadeInDown"></div>
+              <div class="item-one" data-aos="fade-down-left"></div>
+              <div class="item-two" data-aos="fade-up-right"></div>
+              <div class="item-three" data-aos="fade-down"></div>
             </div>
             <div class="py-10">
             <div class="font-quicksand">
-              <h1 class="text-lg text-dark py-5 animate__animated animate__lightSpeedInRight animate__faster">Deaf Monkey</h1>
-              <p class="py-5 text-gray animate__animated animate__lightSpeedInRight animate__fast">Drawing inspiration from multiple genres from shoegaze
+              <h1 class="text-lg text-dark py-5" data-aos="fade-in-left">Deaf Monkey</h1>
+              <p class="py-5 text-gray" data-aos="fade-in-left" >Drawing inspiration from multiple genres from shoegaze
                 to psychedelic rock and rock to post punk with little pieces of everything else
                 inbetween, Deaf Monkey have crafted a sound that's definetly their own.</p>
 
-              <p class="py-5 text-gray animate__animated animate__lightSpeedInRight">Unfiltered, emotional and raw.</p>
+              <p class="py-5 text-gray" data-aos="fade-in-left" data-aos-delay="500">Unfiltered, emotional and raw.</p>
 
             </div>
           </div>
@@ -159,21 +160,21 @@
                     </h1>
                 </div>
                 <div class="grid cols-1 lg-cols-3 py-10">
-                    <div class="grid-item px-5 animate__animated animate__slideInLeft">
+                    <div class="grid-item px-5" data-aos="fade-down-left" data-aos-delay="500" data-aos-duration="1000">
                         <div class="text-center">
                           <img src="./assets/img4.png" alt="Dermot">
                             <h4 class="text-md py-2">Dermot Quinn</h4>
                             <p class="text-gray">Vocals / Guitar</p>
                         </div>
                     </div>
-                    <div class="grid-item px-5 animate__animated animate__slideInDown">
+                    <div class="grid-item px-5" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
                         <div class="text-center">
                           <img src="./assets/img6.png" alt="Chewie">
                             <h4 class="text-md py-2">Andrew "Chewie" Cusack</h4>
                             <p class="text-gray">Bass / Vocals</p>
                         </div>
                     </div>
-                    <div class="grid-item px-5 animate__animated animate__slideInRight">
+                    <div class="grid-item px-5" data-aos="fade-down-right" data-aos-delay="500" data-aos-duration="1000">
                         <div class="text-center">
                           <img src="./assets/img5.png" alt="Kieran">
                             <h4 class="text-md py-2">Kieran O'Halloran</h4>
@@ -182,14 +183,14 @@
                     </div>
                 </div>
                 <div class="grid cols-1 lg-cols-2 px-5">
-                    <div class="grid-item px-5 animate__animated animate__slideInUp">
+                    <div class="grid-item px-5" data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="1000">
                         <div class="text-center">
                           <img src="./assets/img7.png" alt="Sean">
                             <h4 class="text-md py-2">Sean O'Sullivan </h4>
                             <p class="text-gray">Guitar / Keys / Madness</p>
                         </div>
                     </div>
-                    <div class="grid-item px-5 animate__animated animate__slideInUp">
+                    <div class="grid-item px-5" data-aos="fade-up-right" data-aos-delay="500" data-aos-duration="1000">
                         <div class="text-center">
                           <img src="./assets/img8.png" alt="Paul">
                             <h4 class="text-md py-2">Paul Power</h4>
@@ -218,7 +219,7 @@
 
       <!-- videos area -->
       <section class="video-area">
-        <div id="Videos" class="container mx-auto">
+        <div id="Videos" class="container mx-auto" data-aos="fade-up" data-aos-anchor-placement="top-center">
           <h1 class="text-lg text-dark text-center font-quicksand py-5">Videos</h1>
           <div class="grid cols-1 lg-cols-2 font-quicksand ">
             <div class="grid-item px-5">
@@ -408,5 +409,9 @@
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
