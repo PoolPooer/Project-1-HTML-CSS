@@ -28,7 +28,7 @@ body {
     -webkit-animation-delay: -0.2s;
             animation-delay: -0.2s;
     transform: translate3d(19vw, 90vh, 12px);
-    background: #c4d926;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-2 {
@@ -51,7 +51,7 @@ body {
     -webkit-animation-delay: -0.4s;
             animation-delay: -0.4s;
     transform: translate3d(5vw, 29vh, 58px);
-    background: #d99726;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-3 {
@@ -74,7 +74,7 @@ body {
     -webkit-animation-delay: -0.6s;
             animation-delay: -0.6s;
     transform: translate3d(29vw, 43vh, 78px);
-    background: #26a3d9;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-4 {
@@ -97,7 +97,7 @@ body {
     -webkit-animation-delay: -0.8s;
             animation-delay: -0.8s;
     transform: translate3d(25vw, 87vh, 15px);
-    background: #d96526;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-5 {
@@ -120,7 +120,7 @@ body {
     -webkit-animation-delay: -1s;
             animation-delay: -1s;
     transform: translate3d(22vw, 17vh, 83px);
-    background: #9dd926;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-6 {
@@ -143,7 +143,7 @@ body {
     -webkit-animation-delay: -1.2s;
             animation-delay: -1.2s;
     transform: translate3d(67vw, 12vh, 68px);
-    background: #4426d9;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-7 {
@@ -166,7 +166,7 @@ body {
     -webkit-animation-delay: -1.4s;
             animation-delay: -1.4s;
     transform: translate3d(54vw, 32vh, 62px);
-    background: #d9264d;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-8 {
@@ -189,7 +189,7 @@ body {
     -webkit-animation-delay: -1.6s;
             animation-delay: -1.6s;
     transform: translate3d(38vw, 74vh, 94px);
-    background: #2629d9;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-9 {
@@ -212,7 +212,7 @@ body {
     -webkit-animation-delay: -1.8s;
             animation-delay: -1.8s;
     transform: translate3d(83vw, 58vh, 3px);
-    background: #d98b26;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-10 {
@@ -235,7 +235,7 @@ body {
     -webkit-animation-delay: -2s;
             animation-delay: -2s;
     transform: translate3d(86vw, 22vh, 28px);
-    background: #26a0d9;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-11 {
@@ -258,7 +258,7 @@ body {
     -webkit-animation-delay: -2.2s;
             animation-delay: -2.2s;
     transform: translate3d(35vw, 53vh, 2px);
-    background: #d92697;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-12 {
@@ -281,7 +281,7 @@ body {
     -webkit-animation-delay: -2.4s;
             animation-delay: -2.4s;
     transform: translate3d(41vw, 69vh, 53px);
-    background: #26d92c;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-13 {
@@ -304,7 +304,7 @@ body {
     -webkit-animation-delay: -2.6s;
             animation-delay: -2.6s;
     transform: translate3d(10vw, 6vh, 42px);
-    background: #5026d9;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-14 {
@@ -327,7 +327,7 @@ body {
     -webkit-animation-delay: -2.8s;
             animation-delay: -2.8s;
     transform: translate3d(16vw, 15vh, 66px);
-    background: #6526d9;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-15 {
@@ -350,7 +350,7 @@ body {
     -webkit-animation-delay: -3s;
             animation-delay: -3s;
     transform: translate3d(60vw, 25vh, 22px);
-    background: #2fd926;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-16 {
@@ -373,7 +373,7 @@ body {
     -webkit-animation-delay: -3.2s;
             animation-delay: -3.2s;
     transform: translate3d(34vw, 90vh, 17px);
-    background: #2674d9;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-17 {
@@ -396,7 +396,7 @@ body {
     -webkit-animation-delay: -3.4s;
             animation-delay: -3.4s;
     transform: translate3d(44vw, 10vh, 30px);
-    background: #d926be;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-18 {
@@ -419,7 +419,7 @@ body {
     -webkit-animation-delay: -3.6s;
             animation-delay: -3.6s;
     transform: translate3d(31vw, 21vh, 70px);
-    background: #d98e26;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-19 {
@@ -442,7 +442,7 @@ body {
     -webkit-animation-delay: -3.8s;
             animation-delay: -3.8s;
     transform: translate3d(5vw, 62vh, 92px);
-    background: #d95626;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-20 {
@@ -465,7 +465,7 @@ body {
     -webkit-animation-delay: -4s;
             animation-delay: -4s;
     transform: translate3d(38vw, 62vh, 59px);
-    background: #d9263e;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-21 {
@@ -488,7 +488,7 @@ body {
     -webkit-animation-delay: -4.2s;
             animation-delay: -4.2s;
     transform: translate3d(47vw, 85vh, 31px);
-    background: #26d953;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-22 {
@@ -511,7 +511,7 @@ body {
     -webkit-animation-delay: -4.4s;
             animation-delay: -4.4s;
     transform: translate3d(84vw, 38vh, 93px);
-    background: #94d926;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-23 {
@@ -534,7 +534,7 @@ body {
     -webkit-animation-delay: -4.6s;
             animation-delay: -4.6s;
     transform: translate3d(38vw, 38vh, 46px);
-    background: #85d926;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-24 {
@@ -557,7 +557,7 @@ body {
     -webkit-animation-delay: -4.8s;
             animation-delay: -4.8s;
     transform: translate3d(38vw, 44vh, 43px);
-    background: #d94126;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-25 {
@@ -580,7 +580,7 @@ body {
     -webkit-animation-delay: -5s;
             animation-delay: -5s;
     transform: translate3d(59vw, 74vh, 15px);
-    background: #d9264d;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-26 {
@@ -603,7 +603,7 @@ body {
     -webkit-animation-delay: -5.2s;
             animation-delay: -5.2s;
     transform: translate3d(68vw, 52vh, 59px);
-    background: #5026d9;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-27 {
@@ -626,7 +626,7 @@ body {
     -webkit-animation-delay: -5.4s;
             animation-delay: -5.4s;
     transform: translate3d(51vw, 63vh, 4px);
-    background: #2694d9;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-28 {
@@ -649,7 +649,7 @@ body {
     -webkit-animation-delay: -5.6s;
             animation-delay: -5.6s;
     transform: translate3d(6vw, 83vh, 53px);
-    background: #26d959;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-29 {
@@ -672,7 +672,7 @@ body {
     -webkit-animation-delay: -5.8s;
             animation-delay: -5.8s;
     transform: translate3d(13vw, 8vh, 3px);
-    background: #d92674;
+    background: #141413;
   }
 
   @-webkit-keyframes particle-animation-30 {
@@ -695,5 +695,5 @@ body {
     -webkit-animation-delay: -6s;
             animation-delay: -6s;
     transform: translate3d(69vw, 67vh, 85px);
-    background: #d97a26;
+    background: #141413;
   }
