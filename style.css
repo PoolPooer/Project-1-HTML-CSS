@@ -13,9 +13,10 @@
     --text-red : #ff4d6d;
     --box-shadow: 0px 0px 50px 0px rgb(0 0 0 / 10%);
     --bg-blue: rgb(249, 243, 255);
-    --bg-red: rgb(254, 247, 252);
+    --bg-red: rgb(255, 0, 0);
     --bg-yellow:rgb(255, 255, 246);
     --bg-purple: rgb(246, 255, 255);
+    --bg-green: rgb(30, 215, 96);
 
     /* font familiy */
     --font-quicksand : "Quicksand", 'sans-serif';
@@ -75,6 +76,14 @@ ul{
 
 .text-red{
     color: var(--text-red);
+}
+
+.bg-gradient-red{
+    background: var(--bg-red);
+}
+
+.bg-gradient-green{
+    background: var(--bg-green);
 }
 
 .font-quicksand{
@@ -212,7 +221,7 @@ ul{
 }
 
 .btn-primary:hover{
-    background: var(--bg-gradient-indigo);
+    background: var(--bg-gradient-green);
 }
 
 .bg-cover{
