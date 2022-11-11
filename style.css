@@ -177,6 +177,10 @@ ul{
     margin-right: auto;
 }
 
+.py-1{
+    padding-top: 7.5rem;
+}
+
 .py-2{
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -406,7 +410,7 @@ ul{
     width: 100%;
     position: relative;
     background: var(--bg-cover) no-repeat;
-    background-position-x: right;
+    background-position-x: center;
     z-index: -99;
 }
 
