@@ -192,6 +192,11 @@ ul{
     padding-bottom: 4.5rem;
 }
 
+.py-12{
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+}
+
 .px-5{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -213,13 +218,12 @@ ul{
 
 .btn{
     border: none;
-    background-color: transparent;
     cursor: pointer;
 }
 
 .btn-primary{
-    padding: .8rem 2rem;
-    border-radius: 50px;
+    padding: .4rem .7rem;
+    border-radius: 25px;
     font-family: var(--font-quicksand);
     font-weight: bold;
 }
@@ -229,7 +233,7 @@ ul{
 }
 
 .btn-primary:hover{
-    background: var(--bg-gradient-green);
+    color: var(--text-dark);
 }
 
 .bg-cover{
@@ -362,7 +366,6 @@ ul{
     top: 0; left: 0;
     width: 100%;
     padding: 1rem 1.5rem;
-    background: var(--text-light);
     flex-direction: column;
 }
 
@@ -389,6 +392,7 @@ ul{
     position: absolute;
     right: 0; top: 0;
     padding: 1rem;
+    background-color: var(--bg-white);
     color: var(--text-dark2);
 }
 
