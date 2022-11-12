@@ -44,6 +44,7 @@ header{
   color:#f8f9fa;
   padding: 1em;
   z-index: 999;
+  background-color: #f8f9fa;
 }
 
 * > * {
@@ -377,6 +378,7 @@ ul{
     max-height: 0px;
     overflow-y: hidden;
     transition: all 0.9s ease;
+    background-color: #f8f9fa;
 }
 
 #nav .collapse ul{
